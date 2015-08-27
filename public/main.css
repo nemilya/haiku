@@ -1,0 +1,14 @@
+body {
+  background-color: #eee;
+  font-size: 15pt;
+  background-image: url(zen.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%; 
+}
+
+.haiku{
+  position: fixed;
+  top: 20%;
+  left: 20%;
+}
