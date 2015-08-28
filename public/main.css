@@ -12,3 +12,14 @@ body {
   top: 20%;
   left: 20%;
 }
+
+.info{
+  position: fixed;
+  top: 70%;
+  left: 70%;
+}
+.info a{
+  color: #ccc;
+  font-size: 10pt;
+  text-decoration: none
+}
