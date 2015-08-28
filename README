@@ -1,0 +1,15 @@
+HAIKU
+=====
+
+Простое Ruby/Sinatra приложение
+
+Создано для туториалов по:
+
+* настройке Vagrant окружения на windows машине
+* настройка Ruby на VM
+* создание простого Ruby web-приложения на базе Sinatra и деплой на Heroku
+
+Лог действий в setup_log.txt
+
+Демо: http://haiku-basho.herokuapp.com/
+
