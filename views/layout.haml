@@ -1,11 +1,25 @@
-!!!
-%html{ :xmlns => "http://www.w3.org/1999/xhtml", :lang => "en", "xml:lang" => "en"}
+!!! 5
+%html{:lang => "en"}
   %head
     %title Мацуо Басё / Хайку
-    %meta{"http-equiv" => "Content-Type", :content => "text/html; charset=utf-8"}
+    %meta{:charset => "UTF-8"}
+    %meta{:http => { :equiv => "X-UA-Compatible" }, :content => "IE=edge" }
+    %meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0" }
     %link{"rel" => "stylesheet", "href" => "main.css", "type" => "text/css"}
+    %link{"rel" => "stylesheet", "href" => "bootstrap-grid.min.css", "type" => "text/css"}
+    %link{"rel" => "stylesheet", "href" => "media.css", "type" => "text/css"}
   %body
-    .haiku
-      = yield
-    .info
-      %a{ href: 'https://github.com/nemilya/haiku' } github
+    %section.main
+      .container
+        .col-md-6.col-md-offset-3
+          .row= yield
+      .container
+        .col-md-6.col-md-offset-3
+          .row
+            .main_content
+              %img{ :src => "zen.png", :alt => "zen" }/
+      .container
+        .col-md-6.col-md-offset-3
+          .row
+            .info
+              %a{ href: 'https://github.com/nemilya/haiku' } github
