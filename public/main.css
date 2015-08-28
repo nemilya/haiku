@@ -1,25 +1,25 @@
 body {
+  height: 100%;
   background-color: #eee;
   font-size: 15pt;
-  background-image: url(zen.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 50%; 
 }
 
-.haiku{
-  position: fixed;
-  top: 20%;
-  left: 20%;
+.main {
+  margin-top: 10%;
+}
+.main_content {
+  text-align: center;
 }
 
-.info{
-  position: fixed;
-  top: 70%;
-  left: 70%;
+.info {
+  text-align: right;
 }
-.info a{
+
+.info a {
   color: #ccc;
   font-size: 10pt;
-  text-decoration: none
+  text-decoration: none;
+}
+.info a:hover {
+  text-decoration: underline;
 }
